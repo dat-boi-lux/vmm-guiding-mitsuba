@@ -43,7 +43,9 @@ The simplest way to do this is using the `setpath.sh` script:
     source setpath.sh
     ./dist/mtsgui
     
-Or simply: export the path with this command: export LD_LIBRARY_PATH=/home/user/robust-vmm-guiding/dist/
+Or simply: export the path with this command: 
+
+```export LD_LIBRARY_PATH=/home/user/robust-vmm-guiding/dist/```
 
 ## Reproducing the results
 To reproduce the paper's main results shown in Figure 8 and Table 3, you can simply run the provided script `reproduce_results.sh`.
